@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\launcher">
+      <UniqueIdentifier>{ae90da2f-e80e-4838-b714-c93675d82b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\mainmenu">
+      <UniqueIdentifier>{fb739437-e0f5-479f-bca5-0c1f91e8d303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle">
+      <UniqueIdentifier>{b5bd49b4-443f-46b7-be50-03ff21bae1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\server">
+      <UniqueIdentifier>{bcc63e4e-ce65-4a4f-89f6-55052467d850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client">
+      <UniqueIdentifier>{039f3910-274a-4b6c-99ee-7a913d6f431f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client\animi">
+      <UniqueIdentifier>{3e00f0d7-4aaa-4ea0-abf2-9012042cc866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client\attack">
+      <UniqueIdentifier>{e3ef0b08-02d5-4cb6-bac0-405715a49bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client\data">
+      <UniqueIdentifier>{8b2b8e24-1e3b-4059-a2bb-3aebb8c7b4cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client\data\skill">
+      <UniqueIdentifier>{97a4417c-76fb-45ae-ad4b-062f3d9a43e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client\map">
+      <UniqueIdentifier>{bfddf0a5-e65e-4664-98dc-e5147ff87c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client\monitor">
+      <UniqueIdentifier>{677de6de-ffee-480f-aa89-00fe007f37f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client\monitor\self">
+      <UniqueIdentifier>{59e810f0-c65a-466c-a02d-df66f0673ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client\monitor\other">
+      <UniqueIdentifier>{85cebc9e-cee5-4ba2-a478-ac35cb02d464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client\monitor\wait">
+      <UniqueIdentifier>{7681da74-f641-46e4-84ea-7c459fce5c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client\monitor\play">
+      <UniqueIdentifier>{78931ff8-d6e0-4db7-ae58-dfdc0883fdd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client\role">
+      <UniqueIdentifier>{e7fcf1d1-7bd6-4e16-b751-96381849fd4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client\skill">
+      <UniqueIdentifier>{d32f3785-e4e9-4993-a3d1-f938cd696e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client\skill\skillstep">
+      <UniqueIdentifier>{35fff04c-3bac-4eeb-9c3e-ba5ae8ae5499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client\tasks">
+      <UniqueIdentifier>{2e7b1d61-13f6-474e-be64-6620fbdd3d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\server\skill">
+      <UniqueIdentifier>{7455e0cd-9a9a-4912-a064-aa6bb30abfde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client\effect">
+      <UniqueIdentifier>{f60b8706-5c4f-4a52-8d98-30bb8d312684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game">
+      <UniqueIdentifier>{5f6f5383-d325-49fe-9d00-cacf2074457b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\ui">
+      <UniqueIdentifier>{df350d3e-e757-41c9-850d-93e3122ee753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\ui\message">
+      <UniqueIdentifier>{d940bdc2-ac3b-4864-a725-232909e0e80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\battle\client\view">
+      <UniqueIdentifier>{f954aad9-338d-48c8-8f72-a1aaa9961d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\NewFilter1">
+      <UniqueIdentifier>{f8dcd141-b133-49d5-a32e-6e8f3696dc4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game\ui\numberlabel">
+      <UniqueIdentifier>{884df470-2ceb-4c28-a11e-5483717d2d51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes\launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FConfig.cpp">
+      <Filter>Classes\launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FLauncher.cpp">
+      <Filter>Classes\launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenu.cpp">
+      <Filter>Classes\mainmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Role.cpp">
+      <Filter>Classes\battle\client\role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BattleRole.cpp">
+      <Filter>Classes\battle\client\role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AnimiPlayer.cpp">
+      <Filter>Classes\battle\client\animi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RoleData.cpp">
+      <Filter>Classes\battle\client\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BattleRoles.cpp">
+      <Filter>Classes\battle\client\role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skill.cpp">
+      <Filter>Classes\battle\client\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TestData.cpp">
+      <Filter>Classes\mainmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Monitor.cpp">
+      <Filter>Classes\battle\client\monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BattleMap.cpp">
+      <Filter>Classes\battle\client\map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SelfMonitor.cpp">
+      <Filter>Classes\battle\client\monitor\self</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayAnimiMonitor.cpp">
+      <Filter>Classes\battle\client\monitor\play</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AttackData.cpp">
+      <Filter>Classes\battle\client\attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SkillStep.cpp">
+      <Filter>Classes\battle\client\skill\skillstep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SkillData.cpp">
+      <Filter>Classes\battle\client\data\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameServer.cpp">
+      <Filter>Classes\battle\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BattleController.cpp">
+      <Filter>Classes\battle\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ServerData.cpp">
+      <Filter>Classes\battle\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Task.cpp">
+      <Filter>Classes\battle\client\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SSkill.cpp">
+      <Filter>Classes\battle\server\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MessageServer.cpp">
+      <Filter>Classes\game\ui\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DamageEffect.cpp">
+      <Filter>Classes\battle\client\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NumberLabel.cpp">
+      <Filter>Classes\game\ui\numberlabel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TopLayer.cpp">
+      <Filter>Classes\battle\client\view</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes\launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RPGHead.h">
+      <Filter>Classes\launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FConfig.h">
+      <Filter>Classes\launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FLauncher.h">
+      <Filter>Classes\launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenu.h">
+      <Filter>Classes\mainmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Role.h">
+      <Filter>Classes\battle\client\role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BattleRole.h">
+      <Filter>Classes\battle\client\role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AnimiPlayer.h">
+      <Filter>Classes\battle\client\animi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RoleData.h">
+      <Filter>Classes\battle\client\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BattleRoles.h">
+      <Filter>Classes\battle\client\role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skill.h">
+      <Filter>Classes\battle\client\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestData.h">
+      <Filter>Classes\mainmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Monitor.h">
+      <Filter>Classes\battle\client\monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BattleMap.h">
+      <Filter>Classes\battle\client\map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SelfMonitor.h">
+      <Filter>Classes\battle\client\monitor\self</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayAnimiMonitor.h">
+      <Filter>Classes\battle\client\monitor\play</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AttackData.h">
+      <Filter>Classes\battle\client\attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SkillStep.h">
+      <Filter>Classes\battle\client\skill\skillstep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SkillData.h">
+      <Filter>Classes\battle\client\data\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameServer.h">
+      <Filter>Classes\battle\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BattleConfig.h">
+      <Filter>Classes\battle\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BattleController.h">
+      <Filter>Classes\battle\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ServerData.h">
+      <Filter>Classes\battle\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Task.h">
+      <Filter>Classes\battle\client\tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SSkill.h">
+      <Filter>Classes\battle\server\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MessageServer.h">
+      <Filter>Classes\game\ui\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DamageEffect.h">
+      <Filter>Classes\battle\client\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NumberLabel.h">
+      <Filter>Classes\game\ui\numberlabel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TopLayer.h">
+      <Filter>Classes\battle\client\view</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
