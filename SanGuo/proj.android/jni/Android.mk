@@ -26,7 +26,6 @@ LOCAL_WHOLE_STATIC_LIBRARIES += cocosdenshion_static
 LOCAL_WHOLE_STATIC_LIBRARIES += box2d_static
 LOCAL_WHOLE_STATIC_LIBRARIES += cocos_extension_static
 LOCAL_WHOLE_STATIC_LIBRARIES += cocos2dxandroid_static
-LOCAL_WHOLE_STATIC_LIBRARIES += cocos_gui_static
 LOCAL_WHOLE_STATIC_LIBRARIES += cocostudio_static
 LOCAL_WHOLE_STATIC_LIBRARIES += cocos_qq_expand_static
 
@@ -36,7 +35,6 @@ include $(BUILD_SHARED_LIBRARY)
 $(call import-module,2d)
 $(call import-module,audio/android)
 $(call import-module,editor-support/cocostudio)
-$(call import-module,gui)
 $(call import-module,extensions)
 $(call import-module,Box2D)
-$(call import-module,qqextand/libQQExpand)
+$(call import-module,projects/qqexpand/libQQExpand)

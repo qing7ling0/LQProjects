@@ -1,7 +1,7 @@
-#pragma once
+ï»¿#pragma once
 
 //
-// ½ÇÉ«ÒÆ¶¯·½Ïò
+// è§’è‰²ç§»åŠ¨æ–¹å‘
 //
 typedef enum RoleDirect
 {
@@ -17,59 +17,59 @@ typedef enum RoleDirect
 };
 
 //
-// ½ÇÉ«¶¯×÷±êÖ¾
+// è§’è‰²åŠ¨ä½œæ ‡å¿—
 //
 typedef enum RoleFlag
 {
-	// Õ¾Á¢
+	// ç«™ç«‹
 	flagStand,
-	// ÏÂÂä
+	// ä¸‹è½
 	flagDrop,
-	// ÉÏÌø
+	// ä¸Šè·³
 	flagJump,
-	// ÏÂ¶×
+	// ä¸‹è¹²
 	flagSquat,
 };
 
 
 //
-// ½ÇÉ«¶¯×÷ÀàĞÍ
+// è§’è‰²åŠ¨ä½œç±»å‹
 //
 typedef enum RoleActionBase
 {
-	// ÎŞ
+	// æ— 
 	actionNone,
-	// ¹¥»÷
+	// æ”»å‡»
 	actionAttack,
-	// ±»¹¥»÷
+	// è¢«æ”»å‡»
 	actionHurt,
-	// ÒÆ¶¯
+	// ç§»åŠ¨
 	actionMove,
-	// ÅÜ
+	// è·‘
 	actionRun,
-	// ·ÀÓù
+	// é˜²å¾¡
 	actionDefense
 };
 
 
 //
-// ½ÇÉ«ÃüÁî
+// è§’è‰²å‘½ä»¤
 //
 typedef enum CommandType
 {
-	// ÎŞ
+	// æ— 
 	noneCommand,
-	// ¹¥»÷
+	// æ”»å‡»
 	attackCommand,
-	// ´ı»ú
+	// å¾…æœº
 	waitCommand,
-	// ÒÆ¶¯
+	// ç§»åŠ¨
 	moveCommand,
-	// ÏòºóÒÆ¶¯
+	// å‘åç§»åŠ¨
 	moveBackCommand,
-	// ÅÜ
+	// è·‘
 	runCommand,
-	// ·ÀÓù
+	// é˜²å¾¡
 	defenseCommand
 };
 

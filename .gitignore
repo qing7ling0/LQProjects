@@ -91,4 +91,6 @@ tools/jenkins_scripts/mac/android/userconf.ini
 # CTags
 tags
 
+#ignore cocos2d
+cocos2d/
 

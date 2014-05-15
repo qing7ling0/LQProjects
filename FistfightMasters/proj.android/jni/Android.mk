@@ -22,21 +22,20 @@ LOCAL_SRC_FILES := $(FILE_LIST:$(LOCAL_PATH)/%=%)
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
 
+
 LOCAL_WHOLE_STATIC_LIBRARIES := cocos2dx_static
+LOCAL_WHOLE_STATIC_LIBRARIES += cocosdenshion_static
+LOCAL_WHOLE_STATIC_LIBRARIES += box2d_static
 LOCAL_WHOLE_STATIC_LIBRARIES += cocostudio_static
 LOCAL_WHOLE_STATIC_LIBRARIES += cocos_qq_expand_static
 LOCAL_WHOLE_STATIC_LIBRARIES += cocos_extension_static
 
 
-LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../Classes
-
-
 include $(BUILD_SHARED_LIBRARY)
 
-$(call import-add-path,D:/wqq/gitprojects/qqextand)
-$(call import-add-path,D:/wqq/gitprojects/cocos2d-x-code/cocos)
-
-$(call import-module,extensions)
-$(call import-module,editor-support/cocostudio)
-$(call import-module,libQQExpand)
 $(call import-module,2d)
+$(call import-module,editor-support/cocostudio)
+$(call import-module,extensions)
+$(call import-module,qqexpand/libQQExpand)
+$(call import-module,audio/android)
+$(call import-module,Box2D)
