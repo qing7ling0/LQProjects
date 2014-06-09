@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+<<<<<<< HEAD
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FistfightMasters", "FistfightMasters.vcxproj", "{E6DCD2ED-4CB4-4F53-B060-843698BE3B22}"
 	ProjectSection(ProjectDependencies) = postProject
 		{B57CF53F-2E49-4031-9822-047CC0E6BDE2} = {B57CF53F-2E49-4031-9822-047CC0E6BDE2}
+=======
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FistfightMasters", "FistfightMasters.vcxproj", "{E6DCD2ED-4CB4-4F53-B060-843698BE3B22}"
+	ProjectSection(ProjectDependencies) = postProject
+>>>>>>> f34476e34b655f277de1f015b7605b560f7ae61f
 		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E} = {98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}
 		{207BC7A9-CCF1-4F2F-A04D-45F72242AE25} = {207BC7A9-CCF1-4F2F-A04D-45F72242AE25}
 		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6} = {F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}
@@ -17,12 +23,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libchipmunk", "..\cocos2d\e
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libAudio", "..\cocos2d\cocos\audio\proj.win32\CocosDenshion.vcxproj", "{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}"
 EndProject
+<<<<<<< HEAD
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libGUI", "..\cocos2d\cocos\ui\proj.win32\libGUI.vcxproj", "{7E06E92C-537A-442B-9E4A-4761C84F8A1A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libQQExpand", "..\..\qqexpand\libQQExpand\proj.win32\libQQExpand.vcxproj", "{A8650766-DAED-46DD-8847-203DEB65AA8C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libCocosStudio", "..\cocos2d\cocos\editor-support\cocostudio\proj.win32\libCocosStudio.vcxproj", "{B57CF53F-2E49-4031-9822-047CC0E6BDE2}"
 EndProject
+=======
+>>>>>>> f34476e34b655f277de1f015b7605b560f7ae61f
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -45,6 +54,7 @@ Global
 		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}.Debug|Win32.Build.0 = Debug|Win32
 		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}.Release|Win32.ActiveCfg = Release|Win32
 		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}.Release|Win32.Build.0 = Release|Win32
+<<<<<<< HEAD
 		{7E06E92C-537A-442B-9E4A-4761C84F8A1A}.Debug|Win32.ActiveCfg = Debug|Win32
 		{7E06E92C-537A-442B-9E4A-4761C84F8A1A}.Debug|Win32.Build.0 = Debug|Win32
 		{7E06E92C-537A-442B-9E4A-4761C84F8A1A}.Release|Win32.ActiveCfg = Release|Win32
@@ -57,6 +67,8 @@ Global
 		{B57CF53F-2E49-4031-9822-047CC0E6BDE2}.Debug|Win32.Build.0 = Debug|Win32
 		{B57CF53F-2E49-4031-9822-047CC0E6BDE2}.Release|Win32.ActiveCfg = Release|Win32
 		{B57CF53F-2E49-4031-9822-047CC0E6BDE2}.Release|Win32.Build.0 = Release|Win32
+=======
+>>>>>>> f34476e34b655f277de1f015b7605b560f7ae61f
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
