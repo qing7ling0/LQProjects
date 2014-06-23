@@ -19,6 +19,8 @@
 
 #define ZORDER_BATTLE_EFFECT			2000
 
+#define ZORDER_BATTLE_TOP_UI			90000
+
 #define ZORDER_MESSAGE					99999
 
 

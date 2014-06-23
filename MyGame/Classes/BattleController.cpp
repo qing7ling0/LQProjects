@@ -19,6 +19,7 @@ BattleController::BattleController(void)
 	, _tasks(nullptr)
 	, _loadRes(false)
 	, _topLayer(nullptr)
+	, _topUILayer(nullptr)
 	, _gameWin(false)
 {
 }
@@ -67,6 +68,9 @@ bool BattleController::init(void)
 
 	MessageServer::create();
 	addChild(MessageServer::getInstance());
+
+	_topUILayer = TopUILayer::create();
+	addChild(_topUILayer);
 
 	_topLayer = TopLayer::create();
 	addChild(_topLayer);

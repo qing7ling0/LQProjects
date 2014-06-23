@@ -42,6 +42,8 @@ public:
 
 	TopLayer* getTopLayer() { return _topLayer; }
 
+	TopUILayer* getTopUILayer() { return _topUILayer; }
+
 	//static Scene* BattleController::createScene()
 	//{
 	//	// 'scene' is an autorelease object
@@ -77,6 +79,8 @@ private:
 	Tasks *_tasks;
 
 	TopLayer *_topLayer;
+
+	TopUILayer *_topUILayer;
 
 	bool _loadRes;
 };
